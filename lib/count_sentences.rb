@@ -16,7 +16,7 @@ self.end_with?(".")
 
   def count_sentences
     #self.split(/[.!?]+/).count
-binding.pry
+    binding.pry
     new_array = []
     self.split(/[.?!]/).collect do |s|
       if s != ""
