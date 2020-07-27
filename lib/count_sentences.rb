@@ -16,7 +16,6 @@ self.end_with?("!")
   end
 
   def count_sentences
-    binding.pry
-self.split(/[.!?]/).map{|x| !(x.match(/\w+/).nil?)}.reject{|x| x == false}.size
+    self.split(/[.!?]/).map{|x| !(x.match(/\w+/).nil?)}.reject{|x| x == false}.size
   end
 end
