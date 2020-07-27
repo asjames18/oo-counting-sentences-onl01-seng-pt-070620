@@ -23,6 +23,7 @@ self.end_with?(".")
         new_array.push(s)
       end
       new_array.count
+    end
   end
 
 end
