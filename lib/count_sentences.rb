@@ -17,7 +17,7 @@ self.end_with?("!")
 
   def count_sentences
     self.split(/[.!?]/).map do |x|
-      !(x.match(/\w+/).nil?)}.reject do |x|
+      !(x.match(/\w+/).nil?).reject do |x|
         x == false
       end
     end.size
